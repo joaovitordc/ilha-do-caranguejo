@@ -27,7 +27,7 @@ export default function Hero() {
     <section
       ref={ref}
       id="home"
-      className="relative h-screen min-h-[600px] flex flex-col items-center justify-center overflow-hidden"
+      className="relative h-[110vh] min-h-[750px] flex flex-col items-center justify-start overflow-hidden"
     >
       {/* Background image with parallax */}
       <motion.div
@@ -49,7 +49,7 @@ export default function Hero() {
       {/* Content */}
       <motion.div
         style={{ opacity }}
-        className="relative z-10 container-custom flex flex-col items-center text-center pt-20"
+        className="relative z-10 container-custom flex flex-col items-center text-center pt-[8vh] sm:pt-[10vh] pb-28"
       >
         {/* Logo */}
         <motion.div
