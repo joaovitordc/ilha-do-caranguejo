@@ -56,7 +56,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1] }}
-          className="mb-8"
+          className="mb-4 md:mb-8"
         >
           <Image
             src="/images/logo.svg"
@@ -95,7 +95,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 0.75, y: 0 }}
           transition={{ delay: 0.5, duration: 0.7 }}
-          className="text-lg md:text-xl text-[#FDFAF6] max-w-xl mb-10"
+          className="text-lg md:text-xl text-[#FDFAF6] max-w-xl mb-6 md:mb-10"
         >
           Servindo o melhor da culinária capixaba para toda a família.
         </motion.p>
@@ -105,7 +105,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
-          className="flex flex-col sm:flex-row items-center gap-3 mb-16"
+          className="flex flex-col sm:flex-row items-center gap-3 mb-8 md:mb-16"
         >
           <Button href="#reservas" variant="primary">
             Fazer Reserva
@@ -120,7 +120,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={staggerContainer}
-          className="flex flex-wrap justify-center gap-3"
+          className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 sm:gap-3"
         >
           {SPECIALTY_ICONS.map((item) => (
             <motion.div
@@ -129,7 +129,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 16 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
               }}
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#FDFAF6]/10 backdrop-blur-sm border border-[#FDFAF6]/15 text-[#FDFAF6] text-sm font-medium"
+              className="flex items-center justify-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-[#FDFAF6]/10 backdrop-blur-sm border border-[#FDFAF6]/15 text-[#FDFAF6] text-xs sm:text-sm font-medium"
             >
               <Image
                 src={item.icon}
