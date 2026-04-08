@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx @21st-dev/magic-mcp init)"
+    ]
+  }
+}
