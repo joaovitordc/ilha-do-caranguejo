@@ -52,11 +52,11 @@ export default function SplashScreen() {
             className="relative z-10 flex flex-col items-center gap-4"
           >
             <Image
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="Ilha do Caranguejo"
               width={160}
               height={160}
-              className="object-contain brightness-0 invert"
+              className="object-contain"
               priority
             />
             <motion.p

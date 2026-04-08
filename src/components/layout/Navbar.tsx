@@ -42,11 +42,11 @@ export default function Navbar() {
               {/* Logo */}
               <Link href="#" className="flex-shrink-0">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo.svg"
                   alt="Ilha do Caranguejo"
                   width={36}
                   height={36}
-                  className="object-contain brightness-0 invert"
+                  className="object-contain"
                 />
               </Link>
 
@@ -100,11 +100,11 @@ export default function Navbar() {
             {/* Header */}
             <div className="flex items-center justify-between px-6 pt-6">
               <Image
-                src="/images/logo.png"
+                src="/images/logo.svg"
                 alt="Ilha do Caranguejo"
                 width={40}
                 height={40}
-                className="object-contain brightness-0 invert"
+                className="object-contain"
               />
               <button
                 onClick={closeMenu}

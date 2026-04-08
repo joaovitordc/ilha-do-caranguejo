@@ -59,11 +59,11 @@ export default function Hero() {
           className="mb-8"
         >
           <Image
-            src="/images/logo.png"
+            src="/images/logo.svg"
             alt="Ilha do Caranguejo"
             width={100}
             height={100}
-            className="object-contain brightness-0 invert mx-auto"
+            className="object-contain mx-auto"
             priority
           />
         </motion.div>

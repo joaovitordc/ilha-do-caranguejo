@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     "Servindo o melhor da culinária capixaba. Caranguejo, moquecas e petiscos em Vitória e Vila Velha - ES. Faça sua reserva!",
   keywords: ["ilha do caranguejo", "restaurante vitoria", "culinaria capixaba", "moqueca", "caranguejo es"],
+  icons: { icon: "/images/logo.svg" },
   openGraph: {
     title: "Ilha do Caranguejo",
     description: "O ponto turístico da culinária capixaba",

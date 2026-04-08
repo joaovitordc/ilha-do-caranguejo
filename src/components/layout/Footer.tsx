@@ -12,11 +12,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="Ilha do Caranguejo"
               width={56}
               height={56}
-              className="object-contain brightness-0 invert mb-4"
+              className="object-contain mb-4"
             />
             <p className="text-[#6B6560] text-sm leading-relaxed max-w-[24ch]">
               O ponto turístico da culinária capixaba em Vitória e Vila Velha.
