@@ -58,7 +58,7 @@ export const SPECIALTIES = [
     description:
       "Um espaço especial para os pequenos. Enquanto os adultos curtem, as crianças se divertem com segurança.",
     icon: "/images/icons/playground.png",
-    image: "/images/ambiance/8F3A4011.jpg",
+    image: "/images/ambiance/area-kids.jpg",
     color: "#6B6560",
   },
 ];
