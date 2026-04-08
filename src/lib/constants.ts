@@ -112,6 +112,7 @@ export const LOCATIONS = [
     name: "Ilha de Vitória",
     neighborhood: "Jardim Camburi",
     address: "Jardim Camburi, Vitória - ES",
+    phone: "(27) 3395-0244",
     cta: "Fazer Reserva",
     ctaLink: "https://widget.getinapp.com.br/g1gEqzkw",
     ctaType: "link" as const,
