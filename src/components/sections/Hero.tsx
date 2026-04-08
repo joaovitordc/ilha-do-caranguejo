@@ -61,8 +61,8 @@ export default function Hero() {
           <Image
             src="/images/logo.svg"
             alt="Ilha do Caranguejo"
-            width={100}
-            height={100}
+            width={135}
+            height={135}
             className="object-contain mx-auto"
             priority
           />
