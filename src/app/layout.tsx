@@ -18,9 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/ambiance/IRO2277.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/og-image.png",
         alt: "Ilha do Caranguejo — culinária capixaba em Vitória e Vila Velha",
       },
     ],
@@ -29,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ilha do Caranguejo",
     description: "O ponto turístico da culinária capixaba",
-    images: ["/images/ambiance/IRO2277.jpg"],
+    images: ["/images/og-image.png"],
   },
 };
 
