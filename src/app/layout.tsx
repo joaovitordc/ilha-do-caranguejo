@@ -3,7 +3,7 @@ import { jakarta, clashDisplay } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ilhadocaranguejo.vercel.app"),
+  metadataBase: new URL("https://ilha-do-caranguejo.vercel.app"),
   title: "Ilha do Caranguejo | O ponto turístico da culinária capixaba",
   description:
     "Servindo o melhor da culinária capixaba. Caranguejo, moquecas e petiscos em Vitória e Vila Velha - ES. Faça sua reserva!",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ilha do Caranguejo",
     description: "O ponto turístico da culinária capixaba",
-    url: "https://ilhadocaranguejo.com.br",
+    url: "https://ilha-do-caranguejo.vercel.app",
     siteName: "Ilha do Caranguejo",
     locale: "pt_BR",
     type: "website",
@@ -21,9 +21,15 @@ export const metadata: Metadata = {
         url: "/images/ambiance/IRO2277.jpg",
         width: 1200,
         height: 630,
-        alt: "Ilha do Caranguejo",
+        alt: "Ilha do Caranguejo — culinária capixaba em Vitória e Vila Velha",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ilha do Caranguejo",
+    description: "O ponto turístico da culinária capixaba",
+    images: ["/images/ambiance/IRO2277.jpg"],
   },
 };
 
