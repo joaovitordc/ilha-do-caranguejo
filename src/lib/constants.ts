@@ -31,7 +31,7 @@ export const SPECIALTIES = [
     description:
       "O prato símbolo do Espírito Santo. Preparado com temperos tradicionais capixabas e servido na casca.",
     icon: "/images/icons/crabicon.png",
-    image: "/images/food/IRO2920.jpg",
+    image: "/images/food/caranguejo.jpg",
     color: "#C44B2B",
   },
   {
@@ -40,7 +40,7 @@ export const SPECIALTIES = [
     description:
       "A moqueca capixaba é patrimônio imaterial do ES. Feita em panela de barro, com azeite de oliva e urucum.",
     icon: "/images/icons/cooking.png",
-    image: "/images/food/IRO0441.jpg",
+    image: "/images/food/moqueca.jpg",
     color: "#D4956A",
   },
   {
@@ -49,7 +49,7 @@ export const SPECIALTIES = [
     description:
       "Uma grande variedade de petiscos do mar para compartilhar. Frutos do mar frescos e muito sabor.",
     icon: "/images/icons/petisco.png",
-    image: "/images/food/IMG_0508.jpg",
+    image: "/images/food/petisco.jpg",
     color: "#2D6A5A",
   },
   {
